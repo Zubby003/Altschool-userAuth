@@ -11,7 +11,7 @@ const Login = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
   const location = useLocation();
-  const redirectPath = location.state?.path || "/";
+  const redirectPath = location.state?.path || "/home";
 
   const handleChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });

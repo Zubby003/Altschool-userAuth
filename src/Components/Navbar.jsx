@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div className="navItem">
         <NavLink to="/home">Home</NavLink>
-        <NavLink to="/product">products</NavLink>
+        <NavLink to="/product">Products</NavLink>
         {!values.user && <NavLink to="/login">Login</NavLink>}
       </div>
     </nav>
