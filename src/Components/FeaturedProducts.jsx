@@ -5,7 +5,7 @@ const FeaturedProducts = ({ items }) => {
   return (
     <>
       <Helmet>
-        <title>Login</title>
+        <title>Featured products</title>
         <meta name="description" content="featured products" />
         <link rel="canonical" href="/featured" />
       </Helmet>
